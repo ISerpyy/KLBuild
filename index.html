@@ -76,8 +76,7 @@
   const USD_TO_GTQ = 7.75;
 
   /*
-    ✅ CONGELAR TU TOTAL (SIN BOTONES, SOLO POR CÓDIGO)
-
+    ✅ 
     Normal:
       const LOCK_VALUE = false;
       const LOCKED_PRICE_USD = 0;
@@ -87,7 +86,7 @@
       const LOCKED_PRICE_USD = 89233;
   */
   const LOCK_VALUE = false;
-  const LOCKED_PRICE_USD = 0;
+  const LOCKED_PRICE_USD = ;
 
   const myBtcEl = document.getElementById("myBtc");
   const btcPriceUsdEl = document.getElementById("btcPriceUsd");
@@ -114,9 +113,7 @@
       "Q" + totalGtq.toLocaleString(undefined, { maximumFractionDigits: 2 });
   }
 
-  // -----------------------
-  // ✅ MINI CHART (CANVAS)
-  // -----------------------
+
   const canvas = document.getElementById("miniChart");
   const ctx = canvas.getContext("2d");
 
@@ -217,6 +214,7 @@
 
 </body>
 </html>
+
 
 
 
